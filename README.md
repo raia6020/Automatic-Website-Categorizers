@@ -10,7 +10,7 @@ Download  [GoogleScraper](https://github.com/NikolaiT/GoogleScraper):
     pip3 install GoogleScraper
 (GoogleScraper requires Python3.)
 
-Open a command prompt and enter the following:
+Open a command prompt and enter the following command:
 
     GoogleScraper -m http -s "bing" --keyword-file websites.txt > output.txt    
  (You will need to have a file called websites.txt with a list of websites that you want to search.)    
@@ -22,12 +22,12 @@ Run titles_searcher.py that output.txt file:
 # Common Crawl Title Searcher
 (Powered by Yandex.Translate: http://translate.yandex.com/ )
 
-Open a command prompt and enter the following:
+Open a command prompt and enter the following command:
 
     python2.7 extract_data.py
     
 (This will find the titles of webpages in Common Crawl.) 
-Open a command prompt and enter the following:
+Open a command prompt and enter the following command:
 
     python2.7 titles_searcher_common.py output.txt
 (The first entry in the command line after 'titles_searcher.py' should be the name of the output file that you want to create.) 
